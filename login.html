@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <link href="https://getbootstrap.com.br/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com.br/docs/4.1/examples/sign-in/signin.css" rel="stylesheet">
+        <title>.: VlanManager :.</title>
+        <script type="text/javascript" src="javascript/login.js"></script>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="icon" href="images/itau.jpg">
+    </head>
+
+    <body class="text-center">
+        <form class="form-signin">
+            <img class="mb-4" src="images/itau.jpg" alt="" width="90" height="90">
+            <h2 class="text-center">Vlan Manager</h3>
+            
+            <input type="email" class="form-control" id="txtEmail" placeholder="Email ou RACF"><br>
+            <input type="password" class="form-control" id="txtSenha" placeholder="Senha">
+
+            <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me" id="txtCheck"> Lembrar de mim
+                </label>
+              </div>
+              <button type="button" class="btn btn-lg btn-primary btn-block" onclick="autenticarUsuario();">Enviar Dados</button> 
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center" id="erroMSG"></div>
+                </div>
+            </div>
+        
+            <p class="mt-4 mb-3 text-muted">&copy; 2020 - Copyright All Rights Reserved</p>
+        </form>
+    </body>
+
+</html>

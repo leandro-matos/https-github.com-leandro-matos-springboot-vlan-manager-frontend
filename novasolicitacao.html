@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script type="text/javascript" src="javascript/novasolicitacao.js"> </script>
+        <link rel="stylesheet" href="estilo/estilo.css">
+        <link rel="icon" href="images/itau.jpg">
+
+    </head>
+    <body onload="preencherDepartamentos();">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-12"><br><br>
+                    <button class="btn btn-primary float-right" onclick="logout()">Logout</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Vlan Manager</h3><br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <label for="txtData">Data da Solicitação:</label>
+                    <input type="text" class="form-control" id="txtData" placeholder="dd/mm/aaaa">
+                </div>
+            </div>
+            <div class="row">
+                    <div class="form-group col-md-12">
+                      <label for="txtNovoDepto">Novo Departamento:</label>
+                      <select class="form-control" id="txtNovoDepto">
+                      </select>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="form-group col-md-12">
+                      <label for="txtJustificativa">Justificativa:</label>
+                      <textarea class="form-control" id="txtJustificativa" maxlength="200" rows="3">Alteração de Departamento
+                      </textarea>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="btn btn-primary" onclick="enviarSolicitacao();">Enviar Dados</button>
+                    <button type="button" class="btn btn-info" onclick="voltarPerfil();">Voltar ao Perfil</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
