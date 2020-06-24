@@ -22,13 +22,14 @@
 * Github: [@leandro-matos](https://github.com/leandro-matos)
 * Website: https://www.gitshowcase.com/leandro-matos
 
-## 🚀  Tecnologias
+## 🚀  Technologies
 FrontEnd:
 -	[Javascript](https://www.javascript.com/)
 -	[CSS](https://www.w3schools.com/css/)
 -	[Swagger](https://getbootstrap.com/)
 
-Segue também o [PPT](https://github.com/leandro-matos/springboot-vlan-manager-frontend/blob/master/VLANMANAGER_V3.pptx) com slides do projeto.
+[PPT](https://github.com/leandro-matos/springboot-vlan-manager-frontend/blob/master/VLANMANAGER_V3.pptx) with project slides.
+
 
 ## Show your support
 Give a ⭐️ if this project helped you!
