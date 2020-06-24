@@ -80,5 +80,5 @@ function mostrarPerfil(){
 // Deslogar do Sistema
 function logout(){
     localStorage.removeItem("userVlan");
-    window.location = "login.html";
+    window.location = "index.html";
 }
